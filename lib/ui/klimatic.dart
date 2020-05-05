@@ -44,7 +44,7 @@ _cityEntered = results['enter'];
       body: new Stack(
         children: <Widget>[
           new Center(
-            child: new Image.asset('images/umbrella.jpg',
+            child: new Image.asset('images/waves.jpg',
               width: 470.0,
               fit: BoxFit.fill,
               height: 1200.0,
@@ -58,10 +58,7 @@ _cityEntered = results['enter'];
               style: cityStyle(),),
 
           ),
-          new Container(
-            alignment: Alignment.center,
-            child: new Image.asset('images/light_rain.jpg'),
-          ),
+
           new Container(
             margin: const EdgeInsets.fromLTRB(30.0, 290.0, 0.0, 0.0),
             alignment: Alignment.center,
@@ -121,13 +118,7 @@ class ChangeCity extends StatelessWidget
       ),
       body: new Stack(
         children: <Widget>[
-          new Center (
-            child: new Image.asset('images/white_snow.jpg',
-              width: 490.0,
-              height: 1200.0,
-              fit: BoxFit.fill,),
 
-          ),
           new ListView(
             children: <Widget>[
               new ListTile(

@@ -1,2 +1,2 @@
-final appId = "sorry i cant put in my api key here, inseert yours";
+final appId = "938eacfb5b8238af8e31d0f91299e3ae";
 final defaultCity = "Spokane";
